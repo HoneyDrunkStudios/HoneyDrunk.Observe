@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Docs/">
+    <File Path="README.md" />
+    <File Path="CHANGELOG.md" />
+  </Folder>
+  <Folder Name="/Pipelines/">
+    <File Path=".github/workflows/pr-core.yml" />
+    <File Path=".github/workflows/nightly-security.yml" />
+    <File Path=".github/workflows/publish.yml" />
+    <File Path=".github/workflows/weekly-deps.yml" />
+    <File Path=".github/workflows/hive-field-mirror.yml" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/Tests/">
+    <File Path="tests/.gitkeep" />
+  </Folder>
+  <Project Path="src/HoneyDrunk.Observe.Abstractions/HoneyDrunk.Observe.Abstractions.csproj" />
+</Solution>
