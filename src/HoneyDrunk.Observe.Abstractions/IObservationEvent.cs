@@ -22,6 +22,9 @@ public interface IObservationEvent
     /// <summary>
     /// Gets the UTC timestamp when the external condition was observed.
     /// </summary>
+    /// <remarks>
+    /// Implementations must normalize this value to UTC and expose it with a zero offset.
+    /// </remarks>
     public DateTimeOffset ObservedAt { get; }
 
     /// <summary>

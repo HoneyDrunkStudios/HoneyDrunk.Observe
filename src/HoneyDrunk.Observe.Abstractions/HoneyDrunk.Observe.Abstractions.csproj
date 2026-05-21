@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Update="Microsoft.CodeAnalysis.NetAnalyzers" Version="10.0.201" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
     <None Include="CHANGELOG.md" Pack="true" PackagePath="\" />
   </ItemGroup>
