@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.1] - 2026-09-26
+
+### Changed
+
+- Refresh shared HoneyDrunk build tooling while preserving runtime contracts and target frameworks.
+
+### Verified HoneyDrunk dependencies
+
+- HoneyDrunk.Standards: 0.2.9 -> 0.3.0 (verified on NuGet.org).
+
 ## Unreleased
 
 ### Changed
