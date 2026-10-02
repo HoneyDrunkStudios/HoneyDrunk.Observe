@@ -18,7 +18,7 @@ Seed. The first package is the contracts-only Abstractions package; runtime and 
 
 ## Catalog
 
-Canonical Node metadata lives in the HoneyDrunk Architecture catalog: <https://github.com/HoneyDrunkStudios/HoneyDrunk.Architecture/blob/main/catalogs/nodes.json>.
+Canonical Node metadata lives in the HoneyDrunk Studio catalog: <https://github.com/HoneyDrunkStudios/HoneyDrunk.Studio/blob/main/catalogs/nodes.json>.
 
 ## Boundary
 
