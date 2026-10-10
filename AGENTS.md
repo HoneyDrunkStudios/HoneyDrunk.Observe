@@ -18,3 +18,11 @@ dotnet build HoneyDrunk.Observe.slnx -c Release --no-restore
 ```
 
 Current main has no test project; a successful `dotnet test` invocation would not prove executed tests. Use the checked-in workflow for current contract/build checks and document missing runtime/connector verification. Do not use live resources or credentials merely to make a local check pass.
+
+## Code Review Rules
+
+Apply the [shared review criteria](https://github.com/HoneyDrunkStudios/HoneyDrunk.Standards/blob/main/HoneyDrunk.Standards/docs/CONVENTIONS.md#code-review) to changed behavior, using the repository boundaries above. Report actionable findings with the failing path, concrete impact and a small corrective action; disclose unavailable evidence. These rules grant no cross-repository access or merge authority.
+
+- Preserve inbound observation contracts and the current Abstractions-only boundary. Do not describe planned connectors/watchers as working or add runtime dependencies to contracts without an approved implementation scope.
+- For new or changed event contracts, check source identity, tenant/context isolation, time semantics and compatibility. Treat external observations as untrusted input; they must not implicitly authorize outbound actions.
+- Require contract evidence for changed shapes and appropriate failure/replay/cancellation tests if runtime behavior is actually introduced. Do not fabricate executable verification for the scaffold or propose a generic watcher framework from the repository name.
