@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.2] - 2026-11-05
+
+### Changed
+
+- Refresh NuGet dependencies and adopt upstream package releases in dependency order. Preserve target frameworks and public contracts.
+
+| Dependency | Previous | Updated |
+| --- | --- | --- |
+| HoneyDrunk.Standards | 0.3.0 | 0.4.3 |
+
 ## [0.1.1] - 2026-09-26
 
 ### Changed
