@@ -23,3 +23,7 @@ Canonical Node metadata lives in the HoneyDrunk Studio catalog: <https://github.
 ## Boundary
 
 Observe receives and normalizes external-system signals. It does not own outbound telemetry routing, internal Grid telemetry, credential storage, or planning decisions.
+
+## .NET SDK
+
+Build with the .NET 11 SDK pinned in `global.json` (11.0.100, stable patch roll-forward). The Abstractions project targets `net10.0` and `net11.0`; public contract shapes are unchanged. There is no runtime or test project in this scaffold.
